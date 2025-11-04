@@ -27,8 +27,8 @@ import warnings
 warnings.filterwarnings("ignore", category=RuntimeWarning, module="statsmodels.stats.outliers_influence")
 
 # ===================== 默认 Windows 路径（可用命令行覆盖） =====================
-DEFAULT_DATA_CSV = r"C:\Users\86173\Desktop\data\clean\analytic_dataset.csv"
-DEFAULT_OUTFILE  = r"C:\Users\86173\Desktop\Appendix_Model_Report.txt"
+DEFAULT_DATA_CSV = r""
+DEFAULT_OUTFILE  = r""
 
 # ===================== 工具函数 =====================
 def sha256_of_file(path: str) -> str:

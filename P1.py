@@ -12,11 +12,6 @@ P1.py — Windows 单文件版：读取原始表 → 构建分析数据 → 统�
 最小用法（双击或直接运行都可；默认路径已写入）：
   python P1.py
 
-可选参数（cmd/PowerShell 都可以）：
-  python P1.py --in "C:\\Users\\86173\\Desktop\\...2991.xlsx" ^
-               --outfile "C:\\Users\\86173\\Desktop\\Appendix_Single_Report.txt" ^
-               --outdir "C:\\Users\\86173\\Desktop"
-
 依赖：
   pip install pandas openpyxl
 """
@@ -30,9 +25,9 @@ import pandas as pd
 
 
 # ===================== 默认 Windows 路径（可用命令行覆盖） =====================
-DEFAULT_INPUT_PATH = r"C:\Users\86173\Desktop\data_with_video_info_and_emotion_with_lch_and_cover_labels_with_con_title_video_with_con_cover_video_with_video_emotion_cleaned_2991.xlsx"
-DEFAULT_OUTFILE    = r"C:\Users\86173\Desktop\Appendix_Single_Report.txt"
-DEFAULT_OUTDIR     = r"C:\Users\86173\Desktop"   # 用于保存清洗后的 CSV 和日志
+DEFAULT_INPUT_PATH = r""
+DEFAULT_OUTFILE    = r""
+DEFAULT_OUTDIR     = r""   # 用于保存清洗后的 CSV 和日志
 
 
 # ===================== 必需字段（硬校验） =====================
